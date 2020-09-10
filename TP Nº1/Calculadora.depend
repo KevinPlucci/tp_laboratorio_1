@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1562805153 source:c:\users\usuario\downloads\tp_laboratorio_1 jony\tp_laboratorio_1-master\tp nº1\libreriafunciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1562805153 source:c:\users\usuario\downloads\tp_laboratorio_1 jony\tp_laboratorio_1-master\tp nº1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libreriaFunciones.h"
+
+1562805153 c:\users\usuario\downloads\tp_laboratorio_1 jony\tp_laboratorio_1-master\tp nº1\libreriafunciones.h
+
+1599661003 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp nº1\libreriafunciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1599660206 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp nº1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libreriaFunciones.h"
+
+1599661824 c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp nº1\libreriafunciones.h
+
+1599770574 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp 1 con enteros\tp nº1\libreriafunciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1599770691 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp 1 con enteros\tp nº1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libreriaFunciones.h"
+
+1599664422 c:\users\usuario\desktop\kplucci\primer cuatri keku\programacion 1\tp 1 con enteros\tp nº1\libreriafunciones.h
+
