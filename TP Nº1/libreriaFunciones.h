@@ -50,4 +50,4 @@ int multiplicacionOperandos(int, int);
  * \return int El resultado del factorial
  *
  */
-int factorialOperandos(int);
+long factorialOperandos(int);

@@ -12,15 +12,16 @@ int main()
     int opcion;
     int factorial1;
     int factorial2;
-    int flagX = 0;
-    int flagY = 0;
+    int flagX = 0;  //Banderas de X
+    int flagY = 0;  //  """"   "  Y
     int flagCero = 0;
-    int flagMenorCeroOP1 = 0;
+    int flagMenorCeroOP1 = 0; //Flag de menor a 0
     int flagMenorCeroOP2 = 0;
-    int flagPos1 = 0 ;
+    int flagPos1 = 0 ;//Posiciones
     int flagPos2 = 0 ;
     char seguir = 's';
 
+    //Reemplazo la X e Y por el numero asignado por el operando
     do{
         if(flagX == 0)
         {
@@ -42,6 +43,7 @@ int main()
 
         opcion = pedirOpciones("Ingrese una opcion por favor: ");
 
+        //Menu.
         switch(opcion)
         {
             case 1:
@@ -99,7 +101,7 @@ int main()
 
                 if ( flagPos1 == 0 && flagPos2  == 0  && flagMenorCeroOP1 == 0 )
                 {
-                  printf("El factorial de A es: %ld \n" , factorial1);
+                  printf("El factorial de A es: %d \n" , factorial1);
 
                 }
 
@@ -119,7 +121,7 @@ int main()
 
                if ( flagPos1 == 0 && flagPos2  == 0  && flagMenorCeroOP2 == 0 )
                 {
-                    printf("El factorial de B es: %ld \n" , factorial2);
+                    printf("El factorial de B es: %d \n" , factorial2);
                 }else if(flagMenorCeroOP2 == 0)
                 {
                     printf("No se puede calcular el factorial de un numero con decimales\n");
