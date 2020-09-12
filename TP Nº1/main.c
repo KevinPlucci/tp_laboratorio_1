@@ -12,7 +12,7 @@ int main()
     int opcion;
     int factorial1;
     int factorial2;
-    int flagX = 0; //Cambio de X por el numero ingresado(Lo mismo para Y)
+    int flagX = 0; //Cambio de X por el numero ingresado(Lo mismo para Y parala flag de abajo)
     int flagY = 0;
     int flagCero = 0;
     int flagMenorCeroOP1 = 0; //Si da menos de 0.
@@ -21,7 +21,7 @@ int main()
     int flagPos2 = 0 ;
     char seguir = 's';
 
-    //Reemplazo de X por el numero ingresado.
+    //Reemplazo de X e Y por el numero ingresado.
     do{
         if(flagX == 0)
         {
