@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-//Pedir Operaciones.
 int pedirOpciones(char texto[])
 {
     int opcion;
@@ -10,8 +8,7 @@ int pedirOpciones(char texto[])
     scanf("%d" , &opcion);
     return opcion;
 }
-//Pedir Operando.
-int pedirOperandos(char texto[])
+float pedirOperandos(char texto[])
 {
     float operandos;
 
@@ -19,38 +16,33 @@ int pedirOperandos(char texto[])
     scanf("%f" , &operandos);
     return operandos;
 }
-//Operaciones de suma.
-int sumaOperandos(int operando1, int operando2)
+float sumaOperandos(float operando1, float operando2)
 {
-    int suma;
+    float suma;
     suma = operando1 + operando2;
     return suma;
 }
-//Operacion de resta.
-int restaOperandos(int operando1 , int operando2)
+float restaOperandos(float operando1 , float operando2)
 {
-    int resta;
+    float resta;
     resta = operando1 - operando2;
     return resta;
 }
-//Operacion de division.
-float divisionOperandos(int operando1 , int operando2)
+float divisionOperandos(float operando1 , float operando2)
 {
     float division;
-    division  = (float)operando1 / operando2;
+    division = operando1 / operando2;
     return division;
 }
-//Operacion de multiplicacion.
-int multiplicacionOperandos(int operando1, int operando2)
+float multiplicacionOperandos(float operando1, float operando2)
 {
-    int multiplicacion;
+    float multiplicacion;
     multiplicacion = operando1 * operando2;
     return multiplicacion;
 }
-//Operacion del Factorial.
-long int factorialOperandos(int numero)
+int factorialOperandos(int numero)
 {
-    long int factorial;
+    int factorial;
     if(numero == 0 || numero == 1)
     {
     factorial = 1;

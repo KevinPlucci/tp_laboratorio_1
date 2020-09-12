@@ -11,43 +11,43 @@ int pedirOpciones(char texto[]);
  * \return float El numero ingresado por el usuario
  *
  */
-int pedirOperandos(char texto[]);
+float pedirOperandos(char texto[]);
 /** \brief Suma de los operandos
  *
- * \param int El primer operando
- * \param int El segundo operando
- * \return int Resultado de la suma
+ * \param float El primer operando
+ * \param float El segundo operando
+ * \return float Resultado de la suma
  *
  */
-int sumaOperandos(int, int);
+float sumaOperandos(float , float);
 /** \brief Resta de los operandos
  *
- * \param int El primer operando
- * \param int El segundo operando
- * \return int El resultado de la resta
+ * \param float El primer operando
+ * \param float El segundo operando
+ * \return float El resultado de la resta
  *
  */
-int restaOperandos(int, int );
+float restaOperandos(float , float);
 /** \brief Division de los operandos
  *
- * \param int Primer operando/dividendo
- * \param int Segundo operando/divisor
+ * \param float Primer operando/dividendo
+ * \param float Segundo operando/divisor
  * \return float El resultado de la division
  *
  */
-float divisionOperandos(int, int);
+float divisionOperandos(float , float);
 /** \brief Multiplicacion de los operandos
  *
- * \param int El primer operando
- * \param int El segundo operando
- * \return int El resultado de la multiplicacion
+ * \param float El primer operando
+ * \param float El segundo operando
+ * \return float El resultado de la multiplicacion
  *
  */
-int multiplicacionOperandos(int, int);
+float multiplicacionOperandos(float , float);
 /** \brief El factorial de un numero
  *
  * \param int Un operando
  * \return int El resultado del factorial
  *
  */
-long factorialOperandos(int);
+int factorialOperandos(int);

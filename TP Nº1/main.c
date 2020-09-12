@@ -3,39 +3,38 @@
 #include "libreriaFunciones.h"
 int main()
 {
-    int operando1;
-    int operando2;
-    int suma;
-    int resta;
+    float operando1;
+    float operando2;
+    float suma;
+    float resta;
     float division;
-    int multiplicacion;
+    float multiplicacion;
     int opcion;
     int factorial1;
     int factorial2;
-    int flagX = 0;  //Banderas de X
-    int flagY = 0;  //  """"   "  Y
+    int flagX = 0;
+    int flagY = 0;
     int flagCero = 0;
-    int flagMenorCeroOP1 = 0; //Flag de menor a 0
+    int flagMenorCeroOP1 = 0;
     int flagMenorCeroOP2 = 0;
-    int flagPos1 = 0 ;//Posiciones
+    int flagPos1 = 0 ;
     int flagPos2 = 0 ;
     char seguir = 's';
 
-    //Reemplazo la X e Y por el numero asignado por el operando
     do{
         if(flagX == 0)
         {
              printf("1.Ingresar 1er operando (A=x)\n");
         }else
         {
-            printf("1.Ingresar 1er operando (A=%d)\n" , operando1);
+            printf("1.Ingresar 1er operando (A=%.2f)\n" , operando1);
         }
         if(flagY == 0)
         {
             printf("2.Ingresar 2do operando (B=y)\n");
         }else
         {
-            printf("2.Ingresar 2do operando (B=%d)\n" , operando2);
+            printf("2.Ingresar 2do operando (B=%.2f)\n" , operando2);
         }
         printf("3.Calcular todas las operaciones\n");
         printf("4.Informar resultados\n");
@@ -43,7 +42,6 @@ int main()
 
         opcion = pedirOpciones("Ingrese una opcion por favor: ");
 
-        //Menu.
         switch(opcion)
         {
             case 1:
@@ -85,8 +83,8 @@ int main()
 
                 break;
             case 4:
-                printf("El resultado de A+B es: %d \n" , suma);
-                printf("El resultado de A-B es: %d \n" , resta);
+                printf("El resultado de A+B es: %.2f \n" , suma);
+                printf("El resultado de A-B es: %.2f \n" , resta);
                 if(flagCero == 1)
                 {
                     printf("No es posible dividir por cero \n");
@@ -94,7 +92,7 @@ int main()
                 {
                     printf("El resultado de A/B es: %.2f \n" , division);
                 }
-                printf("El resultado de A*B es: %d \n" , multiplicacion);
+                printf("El resultado de A*B es: %.2f \n" , multiplicacion);
 
                 flagPos1 = (int)  (operando1*10)  % 10 ;
                 flagPos2 = (int)  (operando1*100) % 100 ;
