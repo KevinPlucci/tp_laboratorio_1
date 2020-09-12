@@ -12,15 +12,16 @@ int main()
     int opcion;
     int factorial1;
     int factorial2;
-    int flagX = 0;
+    int flagX = 0; //Cambio de X por el numero ingresado(Lo mismo para Y)
     int flagY = 0;
     int flagCero = 0;
-    int flagMenorCeroOP1 = 0;
+    int flagMenorCeroOP1 = 0; //Si da menos de 0.
     int flagMenorCeroOP2 = 0;
-    int flagPos1 = 0 ;
+    int flagPos1 = 0 ;  //Posicionamientos.
     int flagPos2 = 0 ;
     char seguir = 's';
 
+    //Reemplazo de X por el numero ingresado.
     do{
         if(flagX == 0)
         {
@@ -42,6 +43,7 @@ int main()
 
         opcion = pedirOpciones("Ingrese una opcion por favor: ");
 
+        //Opciones.
         switch(opcion)
         {
             case 1:
