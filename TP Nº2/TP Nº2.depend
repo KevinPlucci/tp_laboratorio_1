@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1557027683 source:c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"AskForData.h"
+
+1557027154 source:c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"AskForData.h"
+
+1557030338 c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\arrayemployees.h
+
+1555885712 source:e:\laboratorio_programacion_i\clase9\tp nº2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+
+1555886090 e:\laboratorio_programacion_i\clase9\tp nº2\arrayemployees.h
+	<stdio.h>
+
+1555873114 source:e:\laboratorio_programacion_i\clase9\tp nº2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+
+1556498412 source:c:\users\alumno\desktop\laboratorio_programacion_i-master\clase9\tp nº2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+
+1556546878 c:\users\alumno\desktop\laboratorio_programacion_i-master\clase9\tp nº2\arrayemployees.h
+	<stdio.h>
+
+1556912746 c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\validationfunctions.h
+	"ArrayEmployees.h"
+
+1557003246 source:c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\validationfunctions.c
+	"ValidationFunctions.h"
+
+1557026262 source:c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\askfordata.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"AskForData.h"
+
+1557030334 c:\users\jonathan roberts\desktop\laboratorio_programacion_i\clase9\tp nº2\askfordata.h
+
+1601480664 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\tp_laboratorio_1\tp nº2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<ctype.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"AskForData.h"
+
+1601410123 c:\users\usuario\desktop\kplucci\primer cuatri keku\tp_laboratorio_1\tp nº2\arrayemployees.h
+
+1562805153 c:\users\usuario\desktop\kplucci\primer cuatri keku\tp_laboratorio_1\tp nº2\askfordata.h
+
+1601478563 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\tp_laboratorio_1\tp nº2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"AskForData.h"
+
+1601410123 source:c:\users\usuario\desktop\kplucci\primer cuatri keku\tp_laboratorio_1\tp nº2\askfordata.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"AskForData.h"
+
